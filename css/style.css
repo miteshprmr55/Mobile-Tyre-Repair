@@ -1,0 +1,1753 @@
+/* ==== Futura LT font family ==== */
+
+@font-face {
+    font-family: 'Futura LT-book';
+    src: url('fonts/FuturaLT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura LT-bold';
+    src: url('fonts/FuturaLT-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura LT-five';
+    src: url('fonts/FuturaLT.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura LT';
+    src: url('fonts/FuturaLT-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura LT-ExtraBold.ttf';
+    src: url('fonts/FuturaLT-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura LT-nine';
+    src: url('fonts/FuturaLT-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ==== Open Sans font family ==== */
+
+@font-face {
+    font-family: 'Open Sans-extra-bold';
+    src: url('fonts/OpenSans-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans-bold';
+    src: url('fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans-regular';
+    src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans-Medium';
+    src: url('fonts/OpenSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+img {
+    max-width: 100%;
+}
+
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+input[type="email"],
+input[type="tel"],
+textarea,
+.input-checkbox {
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+}
+
+input:focus {
+    outline: 0;
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+.TC {
+    text-align: center;
+}
+
+.TL {
+    text-align: left;
+}
+
+.TR {
+    text-align: right;
+}
+
+.margin_auto {
+    margin: auto;
+    float: none;
+}
+
+.padding {
+    padding: 0;
+}
+
+.al {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.alm {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+abbr[title] {
+    border-bottom: none !important;
+    cursor: inherit !important;
+    text-decoration: none !important;
+}
+
+body {
+    font-family: 'Open Sans-regular';
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* ==== navbar demo start ==== */
+.header-main {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 12px 0px;
+}
+
+.header-sec-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logos {
+    text-transform: uppercase;
+    color: white;
+    font-size: 35px;
+    font-family: monospace;
+}
+
+.nav-menu {
+    margin: auto;
+    padding: 0px;
+}
+
+.nav-menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 8px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #444444;
+    text-transform: uppercase;
+    padding: 10px 18px;
+    font-size: 20px;
+    font-family: 'Futura LT-book';
+}
+
+.nav-menu li a i {
+    font-size: 24px;
+    margin-left: 1px;
+}
+
+.nav-menu li a.active {
+    color: #F47A19;
+}
+
+.nav-menu li a:hover {
+    color: #F47A19;
+}
+
+.nav-menu-main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.button-main a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    background: #F47A19;
+    width: 190px;
+    text-align: center;
+    border-radius: 50px;
+    font-family: 'Open Sans-bold';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 5px 7px #00000000;
+    gap: 8px;
+    font-size: 20px;
+}
+
+.button-main a:hover {
+    box-shadow: 4px 5px 7px #00000069;
+}
+
+.button-main {
+    display: flex;
+    gap: 20px;
+}
+
+/* ==== toggle start ==== */
+/* ==== drop down start ==== */
+.dpdn-one {
+    position: relative;
+}
+
+.dpdn-two {
+    z-index: 9;
+    position: absolute;
+    padding: 10px;
+    background: #F47A19;
+    text-align: center;
+    width: 150px;
+    width: 600px;
+    height: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    visibility: hidden;
+    transition: 1s;
+    transform: translateY(-16px);
+    opacity: 0;
+    /* display: flex;
+    flex-direction: column; */
+    border-radius: 6px;
+    box-shadow: 4px 5px 7px #00000069;
+}
+
+.dpdn-two li {
+    margin: 0px;
+    width: 48%;
+}
+
+.dpdn-two li a {
+    text-transform: capitalize;
+    display: block;
+    padding: 5px 12px;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+}
+
+.dpdn-two li a:hover {
+    color: white;
+    background: #00000033;
+}
+
+.dpdn-one:hover .dpdn-two {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(6px);
+}
+
+/* ==== drop down End ==== */
+
+@media (max-width: 767px) {
+
+    .toggle {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        background: transparent;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .toggle span {
+        position: absolute;
+        width: 40px;
+        height: 4px;
+        border-radius: 4px;
+        background: white;
+        transition: 0.5s;
+    }
+
+    .toggle span:nth-child(2) {
+        transform: translateY(-12px);
+        width: 25px;
+        left: 7px;
+    }
+
+    .toggle span:nth-child(3) {
+        transform: translateY(12px);
+        width: 15px;
+        left: 7px;
+    }
+
+    .toggle.active span:nth-child(1) {
+        transform: translateX(60px);
+    }
+
+    .toggle.active span:nth-child(2) {
+        width: 40px;
+        transform: translateX(0) rotate(45deg);
+        transition-delay: 0.2s;
+    }
+
+    .toggle.active span:nth-child(3) {
+        width: 40px;
+        transform: translateX(0) rotate(-45deg);
+        transition-delay: 0.4s;
+    }
+
+    /* ==== header start ==== */
+    .header-sec-main {
+        position: relative;
+    }
+
+    .nav-menu-main {
+        position: absolute;
+        flex-direction: column;
+        top: 53px;
+        background: black;
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 25px;
+        display: none;
+        transition: 1s;
+        z-index: 1;
+    }
+
+    .nav-menu-main.active {
+        display: block;
+        transition: 1s;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+
+    .nav-menu li {
+        margin: 8px 8px;
+    }
+
+    .button-main {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 12px;
+    }
+
+    /* ==== header End ==== */
+
+    /* ==== dpdn responsive start ==== */
+    .dpdn-two {
+        width: 142px;
+        display: none;
+    }
+
+    .dpdn-two.active {
+        display: block;
+        top: 36px;
+    }
+
+    .dpdn-one:hover .dpdn-two {
+        visibility: unset;
+        opacity: unset;
+        transform: unset;
+    }
+
+    /* ==== dpdn responsive End ==== */
+
+}
+
+/* ==== toggle End ==== */
+/* ==== navbar demo End ==== */
+
+/* ==== home-page-banner-section start ==== */
+
+.home-page-banner-main {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.home-page-banner-main img {
+    width: 100%;
+}
+
+.home-page-banner-contant {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000090;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page-main-inside-bnr {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-left-bnr-mn {
+    width: 49%;
+}
+
+.home-page-bnr-right-mn {
+    width: 49%;
+}
+
+.home-pg-bnnr-head {
+    margin-bottom: 40px;
+}
+
+.home-pg-bnnr-head h1 {
+    letter-spacing: 1.3px;
+    color: white;
+    font-family: 'Futura LT-bold';
+    font-size: 56px;
+}
+
+.home-page-nr-pera {
+    margin-bottom: 40px;
+}
+
+.home-page-nr-pera p {
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1.3px;
+    line-height: 30px;
+}
+
+.home-page-tick-mrk {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.home-page-tick-mrk img {
+    width: auto;
+}
+
+.home-page-tick-mrk p {
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1.3px;
+    line-height: 30px;
+}
+
+.home-page-banner-form-main {
+    padding: 50px 40px;
+    background-color: #231d1fc9;
+    border: 1px solid #FFFBF7;
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+}
+
+.home-form-head {
+    margin-bottom: 30px;
+}
+
+.home-form-head h3 {
+    color: #ffffffd9;
+    font-size: 24px;
+    font-family: 'Futura LT-bold';
+}
+
+.home-pg-form-itp-mn input {
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 30px;
+    border: 1px solid #ffffff5e;
+    font-size: 14px;
+    font-family: 'Open Sans-regular';
+    padding: 14px 13px;
+    color: white;
+    border-radius: 4px;
+}
+
+.home-pg-form-itp-mn input::placeholder {
+    color: #ffffffba;
+}
+
+.home-pg-form-itp-mn textarea::placeholder {
+    color: #ffffffba;
+}
+
+.home-pg-form-itp-mn textarea {
+    width: 100%;
+    height: 130px;
+    resize: none;
+    background-color: transparent;
+    margin-bottom: 30px;
+    border: 1px solid #ffffff5e;
+    font-size: 14px;
+    font-family: 'Open Sans-regular';
+    padding: 14px 13px;
+    color: white;
+    border-radius: 4px;
+}
+
+.home-pg-form-itp-mn a {
+    display: flex;
+    width: 152px;
+    padding: 14px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F47A19;
+    font-size: 16px;
+    color: white;
+    border: 1px solid #F47A19;
+}
+
+.home-pg-form-itp-mn a:hover {
+    background-color: transparent;
+    color: #F47A19;
+}
+
+/* ==== home-page-banner-section End ==== */
+
+/* ==== tyre-replacement-melbourne-banner start ==== */
+
+.tyre-replacement-melbourne-banner-main {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.tyre-replacement-melbourne-banner-main img {
+    width: 100%;
+}
+
+.services-pg-inside-contant-bnr {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-text-inside {
+    width: 100%;
+}
+
+.services-text-inside h1 {
+    text-align: center;
+    letter-spacing: 1.3px;
+    font-size: 48px;
+    font-family: 'Futura LT-bold';
+    color: white;
+}
+
+.services-text-inside p {
+    font-size: 17px;
+    letter-spacing: 1.3px;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans-regular';
+    margin: 20px 0px;
+}
+
+.services-text-inside a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #F47A19;
+    font-size: 16px;
+    width: 170px;
+    margin: auto;
+    padding: 14px;
+    font-family: 'Open Sans-Medium';
+    border: 1px solid #F47A19;
+}
+
+.services-text-inside a:hover {
+    background-color: transparent;
+}
+
+/* ==== tyre-replacement-melbourne-banner End ==== */
+
+/* ==== tyre-replacement-melbourne service contant start ==== */
+
+.tyre-replacement-melbourne-service-contant {
+    width: 100%;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.tyre-replacement-melbourne-service-contant-inside {
+    width: 100%;
+    margin: auto;
+}
+
+.services-first-head {
+    width: 100%;
+    margin: auto;
+    padding: 16px 0px;
+    margin-bottom: 24px;
+}
+
+.services-first-head h3 {
+    color: #444444;
+    font-size: 32px;
+    font-family: 'Futura LT-bold';
+    position: relative;
+}
+
+.services-first-head h3::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #F47A19;
+    bottom: -12px;
+    left: 0;
+}
+
+.services-first-head h3::after {
+    position: absolute;
+    content: "";
+    background-color: #F47A19;
+    width: 12%;
+    height: 6px;
+    bottom: -14px;
+    left: 0;
+}
+
+.services-first-head h3 span {
+    color: #F47A19;
+}
+
+.services-sec-pera-part {
+    margin-bottom: 20px;
+}
+
+.services-sec-pera-part p {
+    color: black;
+    font-size: 18px;
+}
+
+.services-sec-pera-part p span {
+    color: #F47A19;
+}
+
+.servisec-sec-head {
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.servisec-sec-head h2 {
+    color: #444444;
+    font-family: 'Futura LT-bold';
+    font-size: 24px;
+}
+
+/* ==== tyre-replacement-melbourne service contant End ==== */
+
+/* ==== tyre-replacement-melbourne service FAQs Start ==== */
+
+.tyre-replacement-melbourne-service-FAQs {
+    width: 100%;
+    margin: auto;
+    padding: 40px 0px;
+    background-color: #FFFBF7;
+}
+
+.tyre-replacement-melbourne-service-FAQs-inside {
+    width: 100%;
+    margin: auto;
+}
+
+.tyre-replacement-melbourne-service-FAQs-inside .accordion-item {
+    margin-bottom: 20px;
+    background-color: #FFFBF7;
+}
+
+.tyre-replacement-melbourne-service-FAQs-inside .accordion-button {
+    box-shadow: unset;
+    background-color: #FFFBF7;
+    color: #444444;
+    padding: 16px 0px;
+    border-bottom: 2px solid #F47A19;
+    font-size: 18px;
+    font-family: 'Open Sans-extra-bold';
+}
+
+.tyre-replacement-melbourne-service-FAQs-inside .accordion-item {
+    border-radius: unset;
+    border: unset;
+}
+
+.tyre-replacement-melbourne-service-FAQs-inside .accordion-body {
+    padding: 16px 0px;
+}
+
+.tyre-replacement-melbourne-service-FAQs-inside .accordion-body p {
+    font-size: 18px;
+    color: #444444;
+}
+
+.tyre-replacement-melbourne-service-FAQs-inside .accordion-body p span {
+    color: #F47A19;
+}
+
+.tyre-replacement-melbourne-service-FAQs-inside .accordion-body ul {
+    margin-top: 12px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 20px;
+}
+
+.tyre-replacement-melbourne-service-FAQs-inside .accordion-body ul li {
+    font-size: 18px;
+    color: #444444;
+    line-height: 32px;
+}
+
+.tyre-replacement-melbourne-service-FAQs-inside .accordion-body ul li span {
+    color: #F47A19;
+}
+
+.tyre-replacement-melbourne-service-FAQs-inside .accordion-body .second-faqs-pera {
+    margin-top: 12px;
+}
+
+.tyre-replacement-melbourne-service-FAQs-inside .accordion-button::after {
+    background-image: url(../images/faqs-arrow.png);
+    transform: rotate(180deg);
+}
+
+.tyre-replacement-melbourne-service-FAQs-inside .accordion-button:not(.collapsed)::after {
+    transform: rotate(360deg);
+}
+
+/* ==== tyre-replacement-melbourne service FAQs End ==== */
+
+/* ==== tyre-replacement-melbourne service Book online Start ==== */
+
+.tyre-replacement-melbourne-service-Book-online {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.tyre-replacement-melbourne-service-Book-online img {
+    width: 100%;
+}
+
+.tyre-replacement-melbourne-service-Book-online-inside {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking-main-flx-prnt {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 0px;
+}
+
+.booking-left-countant {
+    width: 43%;
+}
+
+.booking-right-image-section {
+    width: 44%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking-car-img-sec-inside {
+    width: 100%;
+    height: 100%;
+}
+
+.booking-car-img-sec-inside img {
+    width: 100%;
+}
+
+.booking-text-box-one p {
+    color: #FFFFFF;
+    font-size: 26px;
+    margin-bottom: 12px;
+}
+
+.booking-button-prt {}
+
+.booking-button-prt {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.booking-button-prt h6 {
+    font-size: 32px;
+    color: white;
+    font-family: 'Futura LT-bold';
+}
+
+.booking-button-prt a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    width: 265px;
+    color: #F47A19;
+    font-size: 32px;
+    font-family: 'Futura LT-bold';
+    padding: 12px 0px;
+    box-shadow: 7px 6px 10px transparent;
+}
+
+.booking-button-prt a:hover {
+    box-shadow: 7px 6px 10px #0000006b;
+    background-color: #F47A19;
+    color: white;
+}
+
+.booking-pera-one-sectn {
+    margin-top: 40px;
+}
+
+.booking-pera-one-sectn p {
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.booking-button-whatspp {
+    margin-top: 40px;
+}
+
+.booking-button-whatspp a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F47A19;
+    font-size: 20px;
+    font-family: 'Open Sans-bold';
+    width: 241px;
+    border: 1px solid #F47A19;
+    gap: 10px;
+    border-radius: 50px;
+    padding: 20px 0px;
+    box-shadow: 7px 6px 10px transparent;
+}
+
+.booking-button-whatspp a:hover {
+    background-color: #F47A19;
+    color: white;
+    box-shadow: 7px 6px 10px #0000006b;
+}
+
+/* ==== tyre-replacement-melbourne service Book online End ==== */
+
+/* ==== tyre-replacement-melbourne service contact form Start ==== */
+
+.tyre-replacement-melbourne-service-contact-form {
+    width: 100%;
+    margin: auto;
+    padding: 40px 0px;
+    background-color: #FFFBF7;
+}
+
+.tyre-replacement-services-contact-form-main-inside {
+    width: 100%;
+    margin: auto;
+}
+
+.tyre-rplcmnt-itp-mn {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.tyre-rplcmnt-itp-mn input {
+    width: 48.5%;
+    border: 1px solid #444444;
+    background-color: white;
+    font-size: 14px;
+    padding: 16px 13px;
+    border-radius: 4px;
+}
+
+.tyre-rplcmnt-itp-mn textarea {
+    width: 100%;
+    border: 1px solid #444444;
+    background-color: white;
+    font-size: 14px;
+    padding: 16px 13px;
+    border-radius: 4px;
+    height: 140px;
+    resize: none;
+}
+
+.tyre-rplcmnt-itp-mn.button-cnctfrm a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    color: white;
+    background-color: #F47A19;
+    font-size: 16px;
+    margin: auto;
+    padding: 14px;
+    width: 113px;
+    border: 1px solid #F47A19;
+    box-shadow: 2px 2px 10px 0px transparent;
+}
+
+.tyre-rplcmnt-itp-mn.button-cnctfrm a:hover {
+    box-shadow: 2px 2px 10px 0px #00000054;
+    background-color: transparent;
+    color: #F47A19;
+}
+
+.tyre-rplcmnt-itp-mn.button-cnctfrm {
+    margin-bottom: 0px;
+}
+
+/* ==== tyre-replacement-melbourne service contact form End ==== */
+
+/* ==== Footer section Start ====  */
+
+.footer-section-main {
+    width: 100%;
+    margin: auto;
+    padding: 40px 0px;
+    background-color: #231d1f;
+}
+
+.footer-main-section-inside {
+    width: 100%;
+    margin: auto;
+}
+
+.footer-three-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.ftr-one-sec {
+    width: 24%;
+}
+
+.ftr-logo-mn {
+    width: fit-content;
+    margin-bottom: 40px;
+}
+
+.ftr-logo-mn a {
+    display: flex;
+}
+
+.ftr-two {
+    width: 40%;
+}
+
+.ftr-three {
+    width: 30%;
+}
+
+.ftr-pera-logo-sec p {
+    font-size: 14px;
+    color: white;
+    line-height: 28px;
+}
+
+.ftr-social-menu {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.ftr-social-menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 50px;
+    background-color: #ffffff30;
+    color: white;
+}
+
+.ftr-social-menu a:hover {
+    background-color: #F47A19;
+    transform: scale(1.2);
+}
+
+.ftr-services-head {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.ftr-services-head h6 {
+    color: white;
+    font-family: 'Futura LT-bold';
+    font-size: 24px;
+    position: relative;
+    padding-bottom: 14px;
+}
+
+.ftr-services-head h6::before {
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 3px;
+    background-color: #F47A19;
+    bottom: 0;
+    left: 0;
+}
+
+.ftr-list-style-mn {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ftr-list-style-mn ul {
+    padding: 0px 0px 0px 20px;
+    margin: 0px;
+    width: 48%;
+}
+
+.ftr-list-style-mn ul li {
+    padding: 10px 0px;
+}
+
+.ftr-list-style-mn ul li::marker {
+    color: #F47A19;
+}
+
+.ftr-list-style-mn ul li a {
+    color: white;
+    font-size: 16px;
+}
+
+.ftr-list-style-mn ul li a:hover {
+    color: #F47A19;
+}
+
+.ftr-three .ftr-list-style-mn ul {
+    width: 100%;
+}
+
+.footer-location-name-main {
+    margin-bottom: 20px;
+}
+
+.footer-location-name-main h4 {
+    font-family: 'Futura LT-bold';
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #F47A19;
+}
+
+.footer-location-list-mn-ulia {
+    width: 100%;
+    margin: auto;
+}
+
+.footer-location-list-mn-ulia ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-location-list-mn-ulia ul li {
+    width: fit-content;
+}
+
+.footer-location-list-mn-ulia ul li::marker {
+    color: #F47A19;
+}
+
+.footer-location-list-mn-ulia ul li a {
+    color: white;
+    font-size: 16px;
+}
+
+.footer-location-list-mn-ulia ul li a:hover {
+    color: #F47A19;
+}
+
+.footer-location-list-mn-ulia.sec-line {
+    margin-top: 20px;
+}
+
+.footer-location-list-mn-ulia.sec-line ul {
+    width: 72%;
+    margin: auto;
+}
+
+.ftr-copy-right-sec {
+    background-color: #F47A19;
+    padding: 14px 0px;
+}
+
+.ftr-copy-right-sec p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 1px 0px;
+}
+
+.ftr-copy-right-sec p span {
+    font-family: 'Open Sans-bold';
+}
+
+/* ==== Footer section End ====  */
+
+/* ==== whatsapp-fixed-icon start ==== */
+
+.whatsapp-fixed-icon-mn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #F47A19;
+    bottom: 35px;
+    z-index: 9;
+    right: 35px;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+}
+
+.whatsapp-fixed-icon-mn:hover {
+    background: white;
+    border-color: #F47A19;
+}
+
+.whatsapp-fixed-icon-mn:hover a {
+    color: #075E54;
+}
+
+.whatsapp-fixed-icon-mn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 26px;
+}
+
+/* ==== whatsapp-fixed-icon End ==== */
+
+/* ==== home-page-important-things start ==== */
+
+.home-page-important-things-main {
+    width: 100%;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.home-page-important-inside-main {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+    padding: 0px 24px;
+}
+
+.home-page-inside-one {
+    padding: 10px;
+    background-color: white;
+    width: 26%;
+    border-radius: 4px;
+    box-shadow: -1px 3px 40px #00000026;
+}
+
+.home-page-tyre-box-img {
+    width: 56px;
+    height: 56px;
+    border: 1px solid #F47A19;
+    border-radius: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.home-page-inside-one:hover .home-page-tyre-box-img {
+    background-color: #F47A19;
+}
+
+.home-page-inside-one:hover .home-page-tyre-box-img img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.home-page-tyre-box-head {
+    margin-bottom: 20px;
+}
+
+.home-page-tyre-box-head h4 {
+    color: #444444;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Futura LT-bold';
+    line-height: 30px;
+}
+
+.home-tyre-box-pera p {
+    font-size: 14px;
+    color: #444444;
+    text-align: center;
+    line-height: 22px;
+}
+
+/* ==== home-page-important-things End ==== */
+
+/* ==== home-page row-clm-section start ==== */
+
+.home-page-row-clm-section {
+    width: 100%;
+    margin: auto;
+    padding: 40px 0px;
+    background-color: #FFFBF7;
+}
+
+.home-page-row-clm-section-inside {
+    width: 100%;
+    margin: auto;
+}
+
+.home-page-first-row-com-main-one {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-page-rw-clm-left {
+    width: 57%;
+}
+
+.home-page-rw-clm-img {
+    width: 37%;
+}
+
+.home-page-rw-clm-indie-img {
+    width: 100%;
+    height: 100%;
+}
+
+.home-page-rw-clm-indie-img img {
+    width: 100%;
+}
+
+.home-page-rw-clm-text-inside-pera-mn {
+    width: 100%;
+}
+
+.home-page-rw-clm-text-inside-pera-mn p {
+    color: #444444;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+
+/* ==== home-page row-clm-section End ==== */
+
+/* ==== home page card section start ==== */
+
+.home-page-card-section-main {
+    width: 100%;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.home-page-card-section-main-inside {
+    width: 100%;
+    margin: auto;
+}
+
+.home-page-card-wrapper-main {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 48px;
+    padding: 0px 24px;
+}
+
+.home-page-card-one-main {
+    width: 31%;
+    padding: 20px;
+    border: 1px solid #F4F4F4;
+    border-radius: 4px;
+    margin-bottom: 36px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.home-page-card-image {
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.home-page-card-image img {
+    width: 100%;
+}
+
+.home-page-card-heading {
+    margin-bottom: 8px;
+}
+
+.home-page-card-heading h5 {
+    text-transform: uppercase;
+    color: #444444;
+    font-size: 16px;
+    font-family: 'Futura LT-bold';
+    text-align: center;
+    font-family: 'Futura LT-nine';
+    letter-spacing: 1px;
+    transition: 0.4s;
+}
+
+.home-page-card-pera p {
+    color: #444444;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    transition: 0.4s;
+}
+
+.home-page-card-one-main::before {
+    position: absolute;
+    content: "";
+    background-color: #F47A19;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+.home-page-card-one-main:hover {
+    box-shadow: 3px 4px 20px -2px #00000061;
+}
+
+.home-page-card-one-main:hover::before {
+    height: 100%;
+}
+
+.home-page-card-one-main:hover .home-page-card-heading h5 {
+    color: white;
+}
+
+.home-page-card-one-main:hover .home-page-card-pera p {
+    color: white;
+}
+
+/* ==== home page card section End ==== */
+
+/* ==== tyre-replacement-melbourne-service-contant hm-pg-srvces start ==== */
+
+.tyre-replacement-melbourne-service-contant.hm-pg-srvces {
+    background-color: #FFFBF7;
+}
+
+/* ==== tyre-replacement-melbourne-service-contant hm-pg-srvces End ==== */
+
+/* ==== tyre-replacement-melbourne-service-FAQs home-pge-faqS start ==== */
+
+.tyre-replacement-melbourne-service-FAQs.home-pge-faqS {
+    background-color: white;
+}
+
+.tyre-replacement-melbourne-service-FAQs.home-pge-faqS .tyre-replacement-melbourne-service-FAQs-inside .accordion-button {
+    background-color: white;
+}
+
+.tyre-replacement-melbourne-service-FAQs.home-pge-faqS .tyre-replacement-melbourne-service-FAQs-inside .accordion-item {
+    background-color: white;
+}
+
+/* ==== tyre-replacement-melbourne-service-FAQs home-pge-faqS End ==== */
+
+/* ==== home-page-company logo start ==== */
+
+.home-page-companny-logo-main {
+    width: 100%;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.home-page-company-logo-inside {
+    width: 100%;
+    margin: auto;
+}
+
+.home-page-company-logo-box-mn-prnt {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-page-logo-box-one {
+    width: 25%;
+}
+
+.home-page-logo-box-one a {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page-logo-box-one a img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.home-page-logo-box-one img:hover {
+    filter: brightness(0) saturate(100%) invert(49%) sepia(87%) saturate(1087%) hue-rotate(350deg) brightness(97%) contrast(96%);
+}
+
+/* ==== home-page-company logo End ==== */
+
+/* ==== home page contact bg-section Start ===== */
+
+.home-page-contact-sec-main {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.home-page-contact-sec-main img {
+    width: 100%;
+}
+
+.home-page-inside-cnct-box-mn {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 40px 0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page-inside-box-main-one-first {
+    width: 100%;
+    margin: auto;
+    background-color: #231d1f50;
+    border: 1px solid white;
+    padding: 50px 60px;
+    border-radius: 32px;
+    backdrop-filter: blur(4px);
+}
+
+.home-page-inside-box-main-one-first .services-first-head {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.home-page-inside-box-main-one-first .services-first-head h3 {
+    color: white;
+}
+
+.home-page-dflx-section-box {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #F47A19;
+    padding-bottom: 10px;
+}
+
+.home-pageleft-box-seven {
+    width: 52%;
+}
+
+.home-pageleft-box-seven h1 {
+    color: white;
+    font-family: 'Futura LT-bold';
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.home-pageleft-box-seven p {
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
+}
+
+.hopme-page-right-secone-box {
+    width: 40%;
+}
+
+.home-tick-sec-mnn img {
+    width: auto;
+}
+
+.home-tick-sec-mnn {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.home-tick-sec-mnn p {
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1.3px;
+    line-height: 30px;
+}
+
+.contact-call-hmpg-mn-sc {
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.contact-call-hmpg-mn-sc a {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    gap: 20px;
+    font-family: 'Open Sans-bold';
+}
+
+.contact-call-hmpg-mn-sc a span {
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background-color: #F47A19;
+    border-radius: 6px;
+    color: black;
+    border: 1px solid #F47A19;
+    transition: 0.5s;
+}
+
+.contact-call-hmpg-mn-sc a:hover span {
+    background-color: transparent;
+    color: white;
+}
+
+/* ==== home page contact bg-section End ===== */
+
+/* ==== home page slider section start ==== */
+
+.home-page-slidermn {
+    width: 100%;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.home-page-slidermn-inside {
+    width: 100%;
+    margin: auto;
+}
+
+.home-page-wrapper-sld-mn {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.wraper-sld-mn-mmnn {
+    width: 23% !important;
+    margin-right: 43px;
+}
+
+.home-page-wrapper-sld-mn .slick-track {
+    display: flex;
+}
+
+.wraper-sld-mn-mmnn p {
+    margin-bottom: 20px;
+    color: #898989;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.wraper-sld-mn-mmnn h6 {
+    color: #444444;
+    font-size: 16px;
+    font-family: 'Futura LT-bold';
+}
+
+.home-page-wrapper-sld-mn .slick-next.slick-arrow {
+    background-image: url(../images/sld-irght.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 48px;
+    height: 48px;
+    top: -100px;
+    right: 0;
+}
+
+.home-page-wrapper-sld-mn .slick-prev.slick-arrow {
+    background-image: url(../images/sld-arow-sec.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 48px;
+    height: 48px;
+    left: unset;
+    right: 64px;
+    top: -100px;
+}
+
+.home-page-wrapper-sld-mn .slick-prev.slick-arrow.slick-disabled {
+    opacity: 0.7;
+}
+
+.home-page-wrapper-sld-mn .slick-next.slick-arrow.slick-disabled {
+    opacity: 0.7;
+}
+
+/* ==== home page slider section End ==== */
