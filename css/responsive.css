@@ -1,33 +1,1025 @@
-@media screen and (min-width:1241px) and (max-width:1500px){
+@media screen and (min-width:1241px) and (max-width:1500px) {
+
+    /* ==== home page start ====  */
+
+    .home-page-inside-box-main-one-first {
+        padding: 30px 60px;
+    }
+
+    /* ==== home page End ====  */
 
 }
 
-@media screen and (min-width:1025px) and (max-width:1240px){
-	
+@media screen and (min-width:1025px) and (max-width:1240px) {
+
+    /* ==== home page start ==== */
+
+    .nav-menu li a {
+        padding: 10px 14px;
+        font-size: 18px
+    }
+
+    .dpdn-two {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+
+    .dpdn-two li {
+        margin: 0px;
+        width: fit-content;
+    }
+
+    .home-pg-bnnr-head h1 {
+        font-size: 40px;
+    }
+
+    .home-pg-bnnr-head {
+        margin-bottom: 18px;
+    }
+
+    .home-page-nr-pera {
+        margin-bottom: 18px;
+    }
+
+    .home-page-tick-mrk {
+        margin-bottom: 14px;
+    }
+
+    .home-page-banner-form-main {
+        padding: 40px 40px;
+    }
+
+    .booking-button-prt a {
+        width: 228px;
+        font-size: 25px;
+    }
+
+    .booking-pera-one-sectn {
+        margin-top: 18px;
+    }
+
+    .booking-button-whatspp {
+        margin-top: 24px;
+    }
+
+    .home-page-inside-box-main-one-first {
+        padding: 30px 30px;
+    }
+
+    .hopme-page-right-secone-box {
+        width: 41%;
+    }
+
+    .home-tick-sec-mnn {
+        margin-bottom: 14px;
+    }
+
+    .home-page-contact-sec-main img {
+        width: 100%;
+        height: 450px;
+    }
+
+    .home-tick-sec-mnn img {
+        width: auto;
+        height: auto;
+    }
+
+    /* ==== home page End ==== */
+
+    /* ===== services page start ==== */
+
+    .tyre-replacement-melbourne-banner-main img {
+        width: 100%;
+        height: 250px;
+    }
+
+    /* ===== services page End ==== */
+
 }
 
-@media screen and (min-width:992px) and (max-width:1024px){
-	
+@media screen and (min-width:992px) and (max-width:1024px) {
+
+    /* ==== home page start ==== */
+
+    .nav-menu li a {
+        padding: 10px 14px;
+        font-size: 18px
+    }
+
+    .dpdn-two {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+
+    .dpdn-two li {
+        margin: 0px;
+        width: fit-content;
+    }
+
+    .home-pg-bnnr-head h1 {
+        font-size: 40px;
+    }
+
+    .home-pg-bnnr-head {
+        margin-bottom: 18px;
+    }
+
+    .home-page-nr-pera {
+        margin-bottom: 18px;
+    }
+
+    .home-page-tick-mrk {
+        margin-bottom: 14px;
+    }
+
+    .home-page-banner-form-main {
+        padding: 30px 30px;
+    }
+
+    .booking-button-prt a {
+        width: 228px;
+        font-size: 25px;
+    }
+
+    .booking-pera-one-sectn {
+        margin-top: 18px;
+    }
+
+    .booking-button-whatspp {
+        margin-top: 24px;
+    }
+
+    .home-page-inside-box-main-one-first {
+        padding: 30px 30px;
+    }
+
+    .hopme-page-right-secone-box {
+        width: 42%;
+    }
+
+    .home-tick-sec-mnn {
+        margin-bottom: 14px;
+    }
+
+    .home-page-contact-sec-main img {
+        width: 100%;
+        height: 450px;
+    }
+
+    .home-tick-sec-mnn img {
+        width: auto;
+        height: auto;
+    }
+
+    /* ==== home page End ==== */
+
+    /* ===== services page start ==== */
+
+    .tyre-replacement-melbourne-banner-main img {
+        width: 100%;
+        height: 250px;
+    }
+
+    /* ===== services page End ==== */
+
 }
 
-@media screen and (min-width:768px) and (max-width:991px){
-	
-	
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    /* ==== home page start ==== */
+
+    .nav-menu li a {
+        padding: 10px 8px;
+        font-size: 14px;
+    }
+
+    .nav-menu li a i {
+        font-size: 18px;
+        margin-left: 1px;
+    }
+
+    .dpdn-two {
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+    }
+
+    .dpdn-two li {
+        margin: 0px;
+        width: fit-content;
+    }
+
+    .home-pg-bnnr-head h1 {
+        font-size: 26px;
+    }
+
+    .home-pg-bnnr-head {
+        margin-bottom: 10px;
+    }
+
+    .home-page-nr-pera {
+        margin-bottom: 18px;
+    }
+
+    .home-page-tick-mrk {
+        margin-bottom: 8px;
+        align-items: center;
+    }
+
+    .home-page-banner-form-main {
+        padding: 20px 20px;
+        max-width: 88%;
+    }
+
+    .booking-button-prt a {
+        width: 190px;
+        font-size: 16px;
+    }
+
+    .booking-pera-one-sectn {
+        margin-top: 18px;
+    }
+
+    .booking-button-whatspp {
+        margin-top: 24px;
+    }
+
+    .home-page-inside-box-main-one-first {
+        padding: 30px 30px;
+    }
+
+    .hopme-page-right-secone-box {
+        width: 46%;
+    }
+
+    .home-tick-sec-mnn {
+        margin-bottom: 14px;
+        align-items: center;
+    }
+
+    .home-page-contact-sec-main img {
+        width: 100%;
+        height: 450px;
+    }
+
+    .home-tick-sec-mnn img {
+        width: auto;
+        height: auto;
+    }
+
+    .button-main a {
+        padding: 16px 2px;
+        width: 155px;
+        font-size: 16px;
+    }
+
+    .home-page-tick-mrk p {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .home-page-nr-pera p {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .home-form-head h3 {
+        font-size: 20px;
+    }
+
+    .home-form-head {
+        margin-bottom: 16px;
+    }
+
+    .home-pg-form-itp-mn input {
+        margin-bottom: 16px;
+        padding: 8px 13px;
+    }
+
+    .home-pg-form-itp-mn textarea {
+        height: 98px;
+        margin-bottom: 16px;
+    }
+
+    .home-pg-form-itp-mn a {
+        padding: 12px;
+    }
+
+    .logos {
+        width: 27%;
+    }
+
+    .home-page-inside-one {
+        padding: 10px;
+        width: 31%;
+    }
+
+    .home-page-important-inside-main {
+        flex-wrap: wrap;
+        padding: 0px;
+        margin-top: 40px;
+    }
+
+    .booking-button-prt h6 {
+        font-size: 20px;
+    }
+
+    .booking-pera-one-sectn p {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .booking-button-whatspp a {
+        padding: 12px 0px;
+    }
+
+    .booking-main-flx-prnt {
+        align-items: center;
+    }
+
+    .home-page-card-wrapper-main {
+        flex-wrap: wrap;
+        margin-top: 40px;
+        padding: 0;
+    }
+
+    .home-page-card-one-main {
+        width: 32%;
+        padding: 16px;
+        margin-bottom: 16px;
+    }
+
+    .services-first-head h3 {
+        font-size: 28px;
+    }
+
+    .home-tick-sec-mnn p {
+        font-size: 16px;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+
+    .home-pageleft-box-seven p {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .home-page-inside-box-main-one-first .services-first-head {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .contact-call-hmpg-mn-sc a {
+        font-size: 20px;
+    }
+
+    .ftr-three {
+        width: 100%;
+    }
+
+    .ftr-two {
+        width: 60%;
+    }
+
+    .ftr-one-sec {
+        width: 38%;
+    }
+
+    .footer-three-main {
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+
+    .footer-location-list-mn-ulia ul li {
+        width: 30%;
+        line-height: 30px;
+    }
+
+    .footer-location-list-mn-ulia ul {
+        flex-wrap: wrap;
+    }
+
+    .footer-location-list-mn-ulia.sec-line ul {
+        width: 100%;
+    }
+
+    /* ==== home page End ==== */
+
+    /* ===== services page start ==== */
+
+    .tyre-replacement-melbourne-banner-main img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .services-text-inside h1 {
+        font-size: 40px;
+    }
+
+    /* ===== services page End ==== */
+
 }
-@media (max-width: 767px){
-	
-  
+
+@media (max-width: 767px) {
+
+    /* ==== home page start ==== */
+
+    .logos {
+        width: 20%;
+    }
+
+    .home-page-banner-main img {
+        width: 100%;
+        height: 900px;
+        object-fit: cover;
+    }
+
+    .home-page-tick-mrk img {
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .home-page-main-inside-bnr {
+        flex-direction: column;
+    }
+
+    .home-left-bnr-mn {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .home-page-bnr-right-mn {
+        width: 100%;
+    }
+
+    .home-page-banner-form-main {
+        max-width: 100%;
+        padding: 30px;
+    }
+
+    .home-page-tick-mrk {
+        margin-bottom: 6px;
+    }
+
+    .home-pg-bnnr-head h1 {
+        font-size: 36px;
+    }
+
+    .home-pg-bnnr-head {
+        margin-bottom: 10px;
+    }
+
+    .home-page-nr-pera p {
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    .home-page-nr-pera {
+        margin-bottom: 14px;
+    }
+
+    .dpdn-two {
+        background-color: white;
+        padding: 6px;
+        width: fit-content;
+        display: none;
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .dpdn-two li {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .button-main a {
+        padding: 10px;
+        background-color: white;
+        color: #F47A19;
+    }
+
+    .nav-menu li a {
+        text-decoration: none;
+        color: #444444;
+        text-transform: uppercase;
+        padding: 10px 0px;
+        font-size: 20px;
+        font-family: 'Futura LT-book';
+    }
+
+    .dpdn-two li a {
+        text-transform: capitalize;
+        display: block;
+        padding: 5px 12px;
+        color: #F47A19;
+        font-size: 16px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .dpdn-two li a:hover {
+        color: white;
+        background-color: #f47c19a6;
+    }
+
+    .home-page-important-inside-main {
+        flex-wrap: wrap;
+        padding: 0px;
+        margin-top: 40px;
+    }
+
+    .home-page-inside-one {
+        padding: 10px;
+        width: 49%;
+        margin-bottom: 16px;
+    }
+
+    .services-first-head h3 {
+        font-size: 24px;
+    }
+
+    .home-page-first-row-com-main-one {
+        flex-direction: column-reverse;
+    }
+
+    .home-page-rw-clm-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .home-page-rw-clm-left {
+        width: 100%;
+    }
+
+    .mobile-img-rotate {
+        display: block;
+        height: 800px;
+    }
+
+    .mobile-img-rotate-desktop {
+        display: none;
+    }
+
+    .booking-main-flx-prnt {
+        flex-direction: column;
+        position: relative;
+        height: 100%;
+    }
+
+    .booking-right-image-section {
+        width: 66%;
+        height: 50%;
+    }
+
+    .booking-left-countant {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        height: 42%;
+    }
+
+    .tyre-replacement-melbourne-service-Book-online-inside .container {
+        height: 100%;
+    }
+
+    .booking-pera-one-sectn {
+        margin-top: 20px;
+    }
+
+    .booking-button-whatspp {
+        margin-top: 18px;
+        margin-bottom: 20px;
+    }
+
+    .booking-button-whatspp a {
+        font-size: 20px;
+        width: 225px;
+        padding: 14px 0px;
+    }
+
+    .booking-button-prt a {
+        width: 250px;
+        font-size: 26px;
+    }
+
+    .home-page-card-wrapper-main {
+        padding: 0px;
+        margin-top: 40px;
+    }
+
+    .home-page-card-one-main {
+        width: 49%;
+        padding: 20px;
+        margin-bottom: 12px;
+    }
+
+    .home-page-contact-sec-main img {
+        height: 650px;
+        object-fit: cover;
+    }
+
+    .home-tick-sec-mnn img {
+        width: auto;
+        height: auto !important;
+    }
+
+    .home-page-inside-box-main-one-first {
+        padding: 30px;
+    }
+
+    .home-page-dflx-section-box {
+        flex-direction: column;
+    }
+
+    .home-pageleft-box-seven {
+        width: 100%;
+    }
+
+    .hopme-page-right-secone-box {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .home-page-inside-box-main-one-first .services-first-head {
+        margin-top: 0px;
+        margin-bottom: 24px;
+    }
+
+    .home-pageleft-box-seven h1 {
+        font-size: 24px;
+    }
+
+    .home-page-wrapper-sld-mn .slick-prev.slick-arrow {
+        background-image: url(../images/sld-arow-sec.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 40px;
+        height: 40px;
+        left: unset;
+        right: 50px;
+        top: -100px;
+    }
+
+    .home-page-wrapper-sld-mn .slick-next.slick-arrow {
+        background-image: url(../images/sld-irght.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 40px;
+        height: 40px;
+        top: -100px;
+        right: 0;
+    }
+
+    .footer-three-main {
+        flex-wrap: wrap;
+    }
+
+    .ftr-one-sec {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .ftr-two {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .ftr-three {
+        width: 100%;
+    }
+
+    .footer-location-list-mn-ulia ul li {
+        width: 30%;
+        line-height: 30px;
+    }
+
+    .footer-location-list-mn-ulia ul {
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+    /* ==== home page End ==== */
+
+    /* ===== services page start ==== */
+
+    .tyre-replacement-melbourne-banner-main img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .services-text-inside h1 {
+        font-size: 34px;
+    }
+
+    /* ===== services page End ==== */
+
 }
 
 
 
-@media screen and (max-width:575px){
+@media screen and (max-width:575px) {
 
-	
+    /* ==== home page start ==== */
+
+    .home-pg-bnnr-head h1 {
+        font-size: 28px;
+    }
+
+    .booking-right-image-section {
+        width: 75%;
+        height: 50%;
+    }
+
+    .booking-button-prt a {
+        width: 220px;
+        font-size: 23px;
+    }
+
+    .services-first-head h3 {
+        font-size: 20px;
+    }
+
+    .home-page-wrapper-sld-mn .slick-prev.slick-arrow {
+        background-image: url(../images/sld-arow-sec.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 30px;
+        height: 30px;
+        left: unset;
+        right: 40px;
+        top: -86px;
+    }
+
+    .home-page-wrapper-sld-mn .slick-next.slick-arrow {
+        background-image: url(../images/sld-irght.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 30px;
+        height: 30px;
+        top: -86px;
+        right: 0;
+    }
+
+    .footer-location-list-mn-ulia ul {
+        padding: 0px 20px;
+    }
+
+    .footer-location-list-mn-ulia.sec-line ul {
+        width: 100%;
+        margin: auto;
+    }
+
+    .footer-location-list-mn-ulia ul li {
+        width: 100%;
+        line-height: 30px;
+    }
+
+    .footer-location-name-main h4 {
+        text-align: left;
+    }
+
+    .dpdn-two {
+        z-index: 9;
+        position: absolute;
+        padding: 10px;
+        text-align: center;
+        height: auto;
+        left: unset;
+        right: 0;
+        margin: auto;
+        visibility: hidden;
+        transition: 1s;
+        transform: translateY(-106px);
+        opacity: 0;
+        border-radius: 6px;
+        box-shadow: 4px 5px 7px #00000069;
+    }
+
+    .dpdn-one:hover .dpdn-two {
+        visibility: unset;
+        opacity: unset;
+        transform: translateY(-106px);
+    }
+
+    /* ==== home page End ==== */
+
+    /* ===== services page start ==== */
+
+    .services-text-inside h1 {
+        font-size: 30px;
+    }
+
+    /* ===== services page End ==== */
+
 }
 
 
-@media screen and (max-width:480px){
+@media screen and (max-width:480px) {
 
-	
+    /* ==== home page start ==== */
+
+    .home-page-banner-main img {
+        width: 100%;
+        height: 900px;
+        object-fit: cover;
+    }
+
+    .home-pg-bnnr-head h1 {
+        font-size: 24px;
+    }
+
+    .home-page-nr-pera p {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .home-page-tick-mrk p {
+        font-size: 14px;
+        letter-spacing: normal;
+    }
+
+    .home-page-banner-form-main {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .home-form-head h3 {
+        font-size: 20px;
+    }
+
+    .home-form-head {
+        margin-bottom: 20px;
+    }
+
+    .home-pg-form-itp-mn textarea,
+    .home-pg-form-itp-mn input {
+        margin-bottom: 20px;
+    }
+
+    .home-page-inside-one {
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .booking-pera-one-sectn p {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .booking-text-box-one p {
+        font-size: 20px;
+    }
+
+    .booking-button-prt a {
+        width: 130px;
+        font-size: 14px;
+    }
+
+    .booking-button-whatspp a {
+        font-size: 16px;
+        width: 180px;
+        padding: 14px 0px;
+    }
+
+    .booking-button-prt h6 {
+        font-size: 22px;
+    }
+
+    .mobile-img-rotate {
+        height: 750px;
+    }
+
+    .home-page-card-one-main {
+        width: 100%;
+    }
+
+    .services-sec-pera-part p {
+        font-size: 16px;
+    }
+
+    .servisec-sec-head h2 {
+        font-size: 20px;
+    }
+
+    .tyre-replacement-melbourne-service-FAQs-inside .accordion-body p {
+        font-size: 16px;
+    }
+
+    .home-page-inside-box-main-one-first {
+        padding: 20px;
+    }
+
+    .home-page-contact-sec-main img {
+        height: 670px;
+        object-fit: cover;
+    }
+
+    .home-tick-sec-mnn p {
+        font-size: 13px;
+        color: white;
+        letter-spacing: normal;
+        line-height: 30px;
+    }
+
+    .contact-call-hmpg-mn-sc a {
+        font-size: 20px;
+    }
+
+    .home-page-logo-box-one {
+        width: 50%;
+    }
+
+    .home-pageleft-box-seven h1 {
+        font-size: 20px;
+    }
+
+    .home-pageleft-box-seven p {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .wraper-sld-mn-mmnn {
+        width: 23% !important;
+        margin-right: 24px;
+    }
+
+    .home-page-slidermn {
+        width: 100%;
+        margin: auto;
+        padding: 40px 0px 60px;
+    }
+
+    .home-page-wrapper-sld-mn .slick-prev.slick-arrow {
+        background-image: url(../images/sld-arow-sec.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 30px;
+        height: 30px;
+        left: 0;
+        right: 35px;
+        top: unset;
+        bottom: -44px;
+        margin: auto;
+    }
+
+    .home-page-wrapper-sld-mn .slick-next.slick-arrow {
+        background-image: url(../images/sld-irght.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 30px;
+        height: 30px;
+        top: unset;
+        right: 0;
+        left: 35px;
+        bottom: -44px;
+        margin: auto;
+    }
+
+    .ftr-list-style-mn ul {
+        width: 100%;
+    }
+
+    .ftr-list-style-mn {
+        flex-direction: column;
+    }
+
+    .logos {
+        width: 82px;
+    }
+
+    .nav-menu-main {
+        top: 121%;
+    }
+
+    /* ==== home page End ==== */
+
+    /* ===== services page Start ==== */
+
+    .tyre-rplcmnt-itp-mn {
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+    }
+
+    .tyre-rplcmnt-itp-mn input {
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 12px 13px;
+    }
+
+    .tyre-rplcmnt-itp-mn textarea {
+        margin-bottom: 30px;
+        padding: 12px 13px;
+    }
+
+    .tyre-replacement-melbourne-banner-main img {
+        width: 100%;
+        height: 300px;
+    }
+
+    /* ===== services page End ==== */
+
 }
