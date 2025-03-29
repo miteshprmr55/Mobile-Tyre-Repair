@@ -8,6 +8,14 @@
 
     /* ==== home page End ====  */
 
+    /* ==== tyre-repair-page-services start ==== */
+
+    .main.tyre-repair-page-services .tyre-replacement-melbourne-banner-main img {
+        height: 300px;
+    }
+
+    /* ==== tyre-repair-page-services End ==== */
+
 }
 
 @media screen and (min-width:1025px) and (max-width:1240px) {
@@ -96,6 +104,14 @@
 
     /* ===== services page End ==== */
 
+    /* ==== tyre-repair-page-services start ==== */
+
+    .main.tyre-repair-page-services .tyre-replacement-melbourne-banner-main img {
+        height: 300px;
+    }
+
+    /* ==== tyre-repair-page-services End ==== */
+
 }
 
 @media screen and (min-width:992px) and (max-width:1024px) {
@@ -183,6 +199,14 @@
     }
 
     /* ===== services page End ==== */
+
+    /* ==== tyre-repair-page-services start ==== */
+
+    .main.tyre-repair-page-services .tyre-replacement-melbourne-banner-main img {
+        height: 300px;
+    }
+
+    /* ==== tyre-repair-page-services End ==== */
 
 }
 
@@ -420,6 +444,14 @@
 
     /* ===== services page End ==== */
 
+    /* ==== tyre-repair-page-services start ==== */
+
+    .main.tyre-repair-page-services .tyre-replacement-melbourne-banner-main img {
+        height: 300px;
+    }
+
+    /* ==== tyre-repair-page-services End ==== */
+
 }
 
 @media (max-width: 767px) {
@@ -427,7 +459,7 @@
     /* ==== home page start ==== */
 
     .logos {
-        width: 20%;
+        width: 112px;
     }
 
     .home-page-banner-main img {
@@ -715,6 +747,202 @@
     }
 
     /* ===== services page End ==== */
+
+    /* ==== side-bar-open-left-side start ==== */
+
+    .side-bar-open-left-side-main {
+        display: block;
+        position: fixed;
+        width: 250px;
+        height: 100vh;
+        background: #F47A19;
+        left: -100%;
+        z-index: 9;
+        top: 0;
+        padding: 12px;
+        transition: 0.5s;
+        overflow-x: hidden;
+    }
+
+    .sidebar-inside-main-section {
+        width: 100%;
+        height: 100%;
+        transition: 0.5s;
+    }
+
+    .side-bar-logo-mn a {
+        display: flex;
+    }
+
+    .side-bar-logo-mn a img {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(355deg) brightness(107%) contrast(101%);
+    }
+
+    .side-bar-logo-mn {
+        width: 112px;
+        margin-bottom: 10px;
+    }
+
+    .side-bar-menu-list-start-main {
+        width: 100%;
+    }
+
+    .side-bar-menu-list-start-main ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .side-bar-menu-list-start-main ul li {
+        list-style: none;
+        margin: 2px 0px;
+    }
+
+    .side-bar-menu-list-start-main ul li a {
+        color: white;
+        font-family: 'Futura LT-nine';
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .side-bar-menu-list-start-main ul li a:hover {
+        background: #00000073;
+    }
+
+    .side-bar-call-button a {
+        background: white;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 50px;
+        color: #F47A19;
+        gap: 10px;
+        font-family: 'Open Sans-bold';
+        font-size: 18px;
+        box-shadow: 3px 3px 4px transparent;
+    }
+
+    .side-bar-call-button {
+        margin-top: 22px;
+    }
+
+    .side-bar-call-button a:hover {
+        box-shadow: 3px 3px 4px #0000007d;
+    }
+
+    .side-bar-dpdn-right-to-left-menu {
+        width: 91%;
+        height: 95%;
+        background-color: #F47A19;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        transition: 0.5s;
+    }
+
+    .side-bar-open-left-side-main.active .sidebar-inside-main-section {
+        width: 100%;
+        height: 100%;
+        margin-left: -200%;
+    }
+
+    .side-bar-open-left-side-main.active .side-bar-dpdn-right-to-left-menu {
+        left: 0%;
+    }
+
+    .sidebar-close-button a {
+        background: white;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 18px;
+        color: #F47A19;
+        gap: 10px;
+        font-family: 'Open Sans-bold';
+        font-size: 18px;
+        box-shadow: 3px 3px 4px transparent;
+    }
+
+    .sidebar-close-button a i {
+        margin-right: auto;
+    }
+
+    .sidebar-close-button a span {
+        margin: auto;
+        margin-left: -8px;
+    }
+
+    .sidebar-leftopner-list {
+        margin-top: 15px;
+    }
+
+    .sidebar-leftopner-list ul {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .sidebar-leftopner-list ul li {
+        list-style: none;
+        margin: 2px 0px;
+    }
+
+    .sidebar-leftopner-list ul li a {
+        color: white;
+        font-family: 'Futura LT-nine';
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 13px;
+    }
+
+    .sidebar-leftopner-list ul li a:hover {
+        background: #00000073;
+    }
+
+    .side-bar-dpdn-right-to-right-menu {
+        width: 91%;
+        height: 95%;
+        background-color: #F47A19;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        transition: 0.5s;
+    }
+
+    .side-bar-open-left-side-main.active-sec .side-bar-dpdn-right-to-right-menu {
+        left: 0%;
+    }
+
+    .side-bar-open-left-side-main.active-sec .sidebar-inside-main-section {
+        margin-left: -200%;
+    }
+
+    .side-bar-open-left-side-main.active-mn-open {
+        left: 0%;
+    }
+
+    /* ==== side-bar-open-left-side End ==== */
+
+    /* ==== tyre-repair-page-services start ==== */
+
+    .main.tyre-repair-page-services .tyre-replacement-melbourne-banner-main img {
+        height: 300px;
+    }
+
+    /* ==== tyre-repair-page-services End ==== */
 
 }
 
@@ -1020,6 +1248,20 @@
         height: 300px;
     }
 
+    .side-bar-logo-mn {
+        width: 82px;
+        margin-bottom: 10px;
+    }
+
     /* ===== services page End ==== */
+
+    /* ==== tyre-repair-page-services start ==== */
+
+    .main.tyre-repair-page-services .tyre-replacement-melbourne-banner-main img {
+        height: 450px;
+        object-fit: cover;
+    }
+
+    /* ==== tyre-repair-page-services End ==== */
 
 }
