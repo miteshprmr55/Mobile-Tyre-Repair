@@ -187,6 +187,10 @@ abbr[title] {
     text-decoration: none !important;
 }
 
+html {
+    scrollbar-color: #F47A19 white;
+}
+
 body {
     font-family: 'Open Sans-regular';
     background-color: #fff;
@@ -296,12 +300,13 @@ body {
     z-index: 9;
     position: absolute;
     padding: 10px;
-    background: #F47A19;
+    background: white;
     text-align: center;
     width: 150px;
-    width: 600px;
-    height: auto;
+    width: 350px;
+    height: 367px;
     left: 0;
+    overflow-y: auto;
     right: 0;
     margin: auto;
     visibility: hidden;
@@ -311,19 +316,20 @@ body {
     /* display: flex;
     flex-direction: column; */
     border-radius: 6px;
-    box-shadow: 4px 5px 7px #00000069;
+    box-shadow: 0px 0px 7px #00000061;
+    scrollbar-color: #F47A19 white;
 }
 
 .dpdn-two li {
     margin: 0px;
-    width: 48%;
+    width: 100%;
 }
 
 .dpdn-two li a {
     text-transform: capitalize;
     display: block;
     padding: 5px 12px;
-    color: white;
+    color: black;
     font-size: 16px;
     width: 100%;
     text-align: left;
@@ -331,13 +337,13 @@ body {
 
 .dpdn-two li a:hover {
     color: white;
-    background: #00000033;
+    background: #F47A19;
 }
 
 .dpdn-one:hover .dpdn-two {
     visibility: visible;
     opacity: 1;
-    transform: translateY(6px);
+    transform: translateY(40px);
 }
 
 /* ==== drop down End ==== */
@@ -692,7 +698,7 @@ body {
 .tyre-replacement-melbourne-service-contant {
     width: 100%;
     margin: auto;
-    padding: 40px 0px;
+    padding: 30px 0px;
 }
 
 .tyre-replacement-melbourne-service-contant-inside {
@@ -769,7 +775,7 @@ body {
 .tyre-replacement-melbourne-service-FAQs {
     width: 100%;
     margin: auto;
-    padding: 40px 0px;
+    padding: 30px 0px;
     background-color: #FFFBF7;
 }
 
@@ -1242,8 +1248,8 @@ body {
 
 .whatsapp-fixed-icon-mn {
     position: fixed;
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     background: #F47A19;
     bottom: 35px;
     z-index: 9;
@@ -1268,7 +1274,7 @@ body {
     width: 100%;
     height: 100%;
     color: white;
-    font-size: 26px;
+    font-size: 38px;
 }
 
 /* ==== whatsapp-fixed-icon End ==== */
@@ -1776,6 +1782,26 @@ body {
 }
 
 .tyre-replacement-melbourne-service-FAQs-inside .accordion-button span {
+    color: #F47A19;
+}
+
+.servisec-sec-head h2 span {
+    color: #F47A19;
+}
+
+.services-sec-pera-part ul {
+    margin: 14px 0px;
+}
+
+.services-sec-pera-part ul li::marker {
+    color: #F47A19;
+}
+
+.services-sec-pera-part ul li {
+    line-height: 30px;
+}
+
+.services-sec-pera-part ul li span {
     color: #F47A19;
 }
 

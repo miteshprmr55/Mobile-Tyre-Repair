@@ -944,6 +944,15 @@
 
     /* ==== tyre-repair-page-services End ==== */
 
+    .whatsapp-fixed-icon-mn {
+        width: 60px;
+        height: 60px;
+    }
+
+    .whatsapp-fixed-icon-mn a {
+        font-size: 30px;
+    }
+
 }
 
 
@@ -1263,5 +1272,24 @@
     }
 
     /* ==== tyre-repair-page-services End ==== */
+
+    .whatsapp-fixed-icon-mn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .whatsapp-fixed-icon-mn a {
+        font-size: 24px;
+    }
+
+    .servisec-sec-head {
+        margin-top: 24px;
+        margin-bottom: 15px;
+    }
+
+    .services-sec-pera-part ul {
+        margin: 14px 0px;
+        padding: 0px 0px 0px 20px;
+    }
 
 }
