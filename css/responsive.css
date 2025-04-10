@@ -1352,6 +1352,7 @@
         flex-direction: column;
         gap: 0px;
         margin: unset;
+        margin-bottom: 14px;
     }
 
     .locatoin-service-list ul {
@@ -1360,5 +1361,9 @@
     }
 
     /* ==== location page End ====  */
+
+    .home-page-companny-logo-main {
+        padding: 40px 0px 0px 0px;
+    }
 
 }
