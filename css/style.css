@@ -1907,5 +1907,11 @@ body {
     color: #F47A19;
 }
 
+.locatoin-service-list.newport-page {
+    justify-content: flex-start;
+    margin: unset;
+    margin-bottom: 40px;
+    padding: 0px 20px;
+}
 
 /* ==== Williamstown page End ==== */
