@@ -1915,3 +1915,134 @@ body {
 }
 
 /* ==== Williamstown page End ==== */
+
+/* ==== contact us page start ====  */
+
+.location-page-jump.cnct-bnr-pera {
+    width: 100%;
+    max-width: 1140px;
+}
+
+.location-page-jump.cnct-bnr-pera p {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.contact-form-start-main {
+    width: 100%;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.contact-form-main-inside {
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.contact-pg-itp-mn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact-ph-itp-inside-mn {
+    width: 48%;
+    margin-bottom: 40px;
+}
+
+.contact-ph-itp-inside-mn input {
+    width: 100%;
+    border: 1px solid #444444;
+    padding: 14px 13px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.contact-pg-itp-mn.textaria .contact-ph-itp-inside-mn {
+    width: 100%;
+}
+
+.contact-pg-itp-mn.textaria .contact-ph-itp-inside-mn textarea {
+    width: 100%;
+    resize: none;
+    border: 1px solid #444444;
+    padding: 14px 13px;
+    font-size: 14px;
+    border-radius: 4px;
+    height: 140px;
+}
+
+.send-cnct-btn-mn {
+    width: fit-content;
+    margin: auto;
+}
+
+.send-cnct-btn-mn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    color: white;
+    background-color: #F47A19;
+    font-size: 16px;
+    padding: 13px 36px;
+    border: 1px solid #F47A19;
+}
+
+.send-cnct-btn-mn a:hover {
+    background-color: transparent;
+    color: #F47A19;
+}
+
+/* ==== contact us page End ====  */
+
+/* ==== thank you page start ====   */
+
+.thankyou-main-section {
+    width: 100%;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.thankyou-main-section-inside {
+    width: 100%;
+    margin: auto;
+    background-color: #FFFBF7;
+    padding: 40px 80px;
+}
+
+.thankyou-logo-and-tital {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #F47A19;
+    margin-bottom: 20px;
+}
+
+.thankyou-logo-main {
+    width: fit-content;
+    margin: auto;
+}
+
+.thankyou-titl h1 {
+    text-align: center;
+    color: #444444;
+    font-size: 36px;
+    font-family: 'Futura LT-bold';
+}
+
+.thankyou-pera-main {}
+
+.thankyou-pera-main p {
+    color: #444444;
+    font-size: 18px;
+}
+
+/* ==== thank you page End ====   */
+
+.accordion-body p a {
+    color: #F47A19;
+}

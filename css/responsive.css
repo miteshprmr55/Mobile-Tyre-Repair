@@ -112,6 +112,14 @@
 
     /* ==== tyre-repair-page-services End ==== */
 
+    /* ==== contact us page start ====  */
+
+    .location-page-jump.cnct-bnr-pera {
+        max-width: 90%;
+    }
+
+    /* ==== contact us page End ====  */
+
 }
 
 @media screen and (min-width:992px) and (max-width:1024px) {
@@ -466,6 +474,23 @@
     }
 
     /* ==== location page End ==== */
+
+    /* ==== contact us page start ====  */
+
+    .location-page-jump.cnct-bnr-pera {
+        max-width: 90%;
+    }
+
+    /* ==== contact us page End ====  */
+
+    /* ==== thank you page start ====  */
+
+    .thankyou-logo-and-tital {
+        gap: 50px;
+        padding-bottom: 50px;
+    }
+
+    /* ==== thank you page End ====  */
 
 }
 
@@ -991,6 +1016,27 @@
 
     /* ==== location page End ==== */
 
+    /* ==== contact us page start ====  */
+
+    .location-page-jump.cnct-bnr-pera {
+        max-width: 90%;
+    }
+
+    /* ==== contact us page End ====  */
+
+    /* ==== thank you page start ====  */
+
+    .thankyou-logo-and-tital {
+        gap: 40px;
+        padding-bottom: 40px;
+    }
+
+    .thankyou-main-section-inside {
+        padding: 40px;
+    }
+
+    /* ==== thank you page End ====  */
+
 }
 
 
@@ -1096,6 +1142,23 @@
     }
 
     /* ==== Location page End ====  */
+
+    /* ==== thank you page start ====  */
+
+    .thankyou-logo-and-tital {
+        gap: 40px;
+        padding-bottom: 40px;
+    }
+
+    .thankyou-main-section-inside {
+        padding: 40px;
+    }
+
+    .thankyou-titl h1 {
+        font-size: 28px;
+    }
+
+    /* ==== thank you page End ====  */
 
 }
 
@@ -1369,5 +1432,43 @@
     .locatoin-service-list.newport-page {
         padding: 0px;
     }
+
+    /* ==== contact us page start =====  */
+
+    .contact-pg-itp-mn {
+        flex-direction: column;
+    }
+
+    .contact-ph-itp-inside-mn {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .main.Williamstown.contactuspage .Williamstown-page-banner-main img {
+        height: 280px;
+    }
+
+    /* ==== contact us page End =====  */
+
+    /* ==== thank you page start ====  */
+
+    .thankyou-logo-and-tital {
+        gap: 30px;
+        padding-bottom: 30px;
+    }
+
+    .thankyou-main-section-inside {
+        padding: 20px;
+    }
+
+    .thankyou-titl h1 {
+        font-size: 24px;
+    }
+
+    .thankyou-pera-main p {
+        font-size: 16px;
+    }
+
+    /* ==== thank you page End ====  */
 
 }
